@@ -52,10 +52,16 @@
           />
           <h1>Balaji Selvakumar</h1>
           <h2>Robotics / Deep Learning Engineer</h2>
-          <p class="motto">Mastering Robotics Engineering: Designing Intelligent Solutions for Tomorrow</p>
+          <!-- <p class="motto">Mastering Robotics Engineering: Designing Intelligent Solutions for Tomorrow</p> -->
           <!-- Divider -->
 <div class="divider"></div>
-        <p class="intro">
+        <!-- <p class="intro"> -->
+    <!-- A Robotics Engineer with a strong foundation in developing intelligent robotic systems. I have experience tackling a wide range of challenges, including tasks such as sensor fusion and calibration, mapping and relocalization, social navigation, data sampling, and augmentation to improve model accuracy. -->
+<!-- </p> -->
+        <p class="intro"></p>
+I'm a robotics engineer and researcher with hands-on experience in developing autonomous systems, deep learning for perception, and sensor fusion. My work spans real-time robotic applications, including point cloud segmentation, SLAM, and precision measurement for construction automation. I’ve contributed to projects at Oak Ridge National Laboratory, including automated building envelope segmentation and robotic laser tracking, and previously developed social navigation frameworks and large-scale mapping pipelines at the University of Maryland’s GAMMA Lab.
+Technically, I work with Python, C++, ROS/ROS2, OpenCV, and deep learning frameworks like PyTorch and TensorFlow. I’m comfortable working at the intersection of hardware and software—integrating and calibrating sensors, optimizing algorithms, and turning research into reliable, usable solutions.
+My focus: Building intelligent robots that can perceive, decide, and act in complex real-world environments.
     A Robotics Engineer with a strong foundation in developing intelligent robotic systems. I have experience tackling a wide range of challenges, including tasks such as sensor fusion and calibration, mapping and relocalization, social navigation, data sampling, and augmentation to improve model accuracy.
 </p>
           <div class="social-icons">
@@ -84,8 +90,62 @@
                 <p class="experience-duration">Jan 2024 – Present</p>
             </div>
             <img src="assets/images/oak_ridge.jpeg" alt="ORNL">
-            <p class="experience-role">Deep Learning Researcher</p>
-            <p>Contributing to the Real-Time Evaluator (RTE) project, enhancing precision in building component placement during crane installation.</p>
+            <p class="experience-role">Deep Learning Researcher & Robotics Research Intern</p>
+            <div class="experience-projects">
+                <div class="project-item">
+                    <h4><i class="fas fa-cube"></i> DeeP-CuBES Project</h4>
+                    <p>Developed deep learning techniques (PointNet++, SuperPoint Transformers) for semantic segmentation to extract window dimensions from point clouds and create digital twin BIM models for building retrofitting automation.</p>
+                    <div class="project-links">
+                        <a href="https://www.energy.gov/sites/default/files/2024-11/bto-peer-2024-deep-learning-point-cloud-maldonado.pdf" target="_blank">
+                            <i class="fas fa-file-pdf"></i> Research Paper
+                        </a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <h4><i class="fas fa-trophy"></i> Real-Time Evaluator (RTE) - R&D 100 Award Winner 2024</h4>
+                    <p>Enhanced precision in building component placement during crane installation. Improved automated tracking algorithm operating speed by 30%. Utilized Leica MS60 Robotic Total Station for 1/8-inch accuracy measurements.</p>
+                    <div class="project-links">
+                        <a href="https://globalrenewablenews.com/article/energy/category/climate-change/82/1087474/ornl-demonstrates-affordable-energy-efficient-low-carbon-building-technologies-on-national-mall-during-hud-innovation-housing-showcase.html" target="_blank">
+                            <i class="fas fa-newspaper"></i> News Article
+                        </a>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <h4><i class="fas fa-database"></i> ORNOBEL Dataset Library</h4>
+                    <p>Created comprehensive labeled point cloud dataset of building scans using Leica Total Station with <6mm accuracy. Developed public dataset library for researchers using Auto-Cubes Algorithm (ML-based DB-Scan customizable tool).</p>
+                </div>
+                <div class="project-item">
+                    <h4><i class="fas fa-robot"></i> FAMI & Robotic Laser Tracking</h4>
+                    <p>Optimized real-time panel orientation tracking by fusing MS60 with IMU inputs. Developed data extraction programs for RoboDyne software using AT960 and T-probe for enhanced robotic precision.</p>
+                    <div class="project-links">
+                        <a href="https://construction-robots.github.io/papers/83.pdf" target="_blank">
+                            <i class="fas fa-file-pdf"></i> Research Paper
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="experience-card">
+            <div class="experience-header">
+                <h3>GAMMA Laboratory, University of Maryland</h3>
+                <p class="experience-duration">Jul 2023 – Dec 2023</p>
+            </div>
+            <img src="assets/images/logo.jpg" alt="GAMMA Lab">
+            <p class="experience-role">Graduate Student - Autonomous Global Navigation</p>
+            <div class="experience-projects">
+                <div class="project-item">
+                    <h4><i class="fas fa-users"></i> Social Navigation Framework</h4>
+                    <p>Developed baseline social navigation using custom YOLOv8 model for complex urban environments including street crossings with enhanced situational awareness.</p>
+                </div>
+                <div class="project-item">
+                    <h4><i class="fas fa-map"></i> SLAM Implementation</h4>
+                    <p>Implemented LIO-SAM on SPOT robot for real-time lidar-inertial odometry, processing raw data for campus-wide autonomous navigation with custom training maps.</p>
+                </div>
+                <div class="project-item">
+                    <h4><i class="fas fa-cogs"></i> Sensor Integration & Calibration</h4>
+                    <p>Integrated and calibrated Velodyne LIDAR, RealSense Camera, Microstain IMU, and Taoglas GPS on SPOT Robot for optimal pathfinding.</p>
+                </div>
+            </div>
         </div>
         <div class="experience-card">
             <div class="experience-header">
@@ -94,7 +154,12 @@
             </div>
             <img src="assets/images/logo.jpg" alt="Achara Technologies">
             <p class="experience-role">Machine Learning Intern</p>
-            <p>Developed ML architecture for fabric defect inspection, increasing inspection speed by 30%.</p>
+            <div class="experience-projects">
+                <div class="project-item">
+                    <h4><i class="fas fa-industry"></i> Fabric Defect Inspection System</h4>
+                    <p>Built ML architecture in R&D for inspecting fabric defects and classifying defect types. Created reliable supervised learning algorithm resulting in 30% increase in inspection speed.</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -106,24 +171,80 @@
     <h2>Projects</h2>
     <div class="project-grid">
         <div class="project-card">
-            <img src="assets/images/first.webp" alt="Deep Learning and 3D Point Cloud Project">
-            <h3>Deep Learning and 3D Point Cloud</h3>
-            <p>Fine-tuned point cloud segmentation algorithm using Pytorch.</p>
+            <img src="assets/images/first.webp" alt="PointNet2 Semantic Segmentation">
+            <h3>PointNet2 Semantic Segmentation</h3>
+            <p>PyTorch implementation of PointNet++ for 3D point cloud semantic segmentation achieving 83.0% overall accuracy on S3DIS dataset.</p>
+            <div class="tech-stack">
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">Point Clouds</span>
+                <span class="tech-tag">Deep Learning</span>
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/BALA22-cyber/pointnet2_pytorch_semantic" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
         </div>
         <div class="project-card">
             <img src="assets/images/second.webp" alt="Robotic Perception Project">
             <h3>Robotic Perception</h3>
             <p>Trained a UNet-based DL model for ground plane detection with 99.1% efficiency.</p>
+            <div class="tech-stack">
+                <span class="tech-tag">Computer Vision</span>
+                <span class="tech-tag">UNet</span>
+                <span class="tech-tag">Robotics</span>
+            </div>
         </div>
         <div class="project-card">
-            <img src="assets/images/third.webp" alt="Brain Tumor Classification Project">
-            <h3>Brain Tumor Classification</h3>
-            <p>Achieved 98% accuracy in MRI classification using deep learning models.</p>
+            <img src="assets/images/third.webp" alt="Brain Tumor Classification">
+            <h3>Brain Tumor Classification with ResNet</h3>
+            <p>Comparative analysis of ResNet50 vs ResNet152V2 for brain tumor classification using RICAP preprocessing and custom CNN architectures.</p>
+            <div class="tech-stack">
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">ResNet</span>
+                <span class="tech-tag">Medical AI</span>
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/BALA22-cyber/Brain-Tumor-Classifier-ResNet-Comparison" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
         </div>
         <div class="project-card">
-            <img src="assets/images/fourth.webp" alt="Autonomous Robotics Project">
-            <h3>Autonomous Robotics</h3>
-            <p>Developed Autonomous Baron using Raspberry Pi for object retrieval.</p>
+            <img src="assets/images/fourth.webp" alt="SuperPoint Transformer">
+            <h3>SuperPoint Transformer</h3>
+            <p>State-of-the-art 3D semantic segmentation achieving 76.0 mIoU on S3DIS with lightweight 212k parameter transformer architecture.</p>
+            <div class="tech-stack">
+                <span class="tech-tag">Transformers</span>
+                <span class="tech-tag">3D Segmentation</span>
+                <span class="tech-tag">PyTorch Lightning</span>
+            </div>
+            <div class="project-links">
+                <a href="https://github.com/BALA22-cyber/superpoint_transformer" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="assets/images/first.webp" alt="Multi-Camera Object Tracking">
+            <h3>Multi-Camera Object Tracking</h3>
+            <p>Advanced multi-camera multi-object tracking system using YOLO backbone with pose estimation for ReID and tracking in dynamic environments.</p>
+            <div class="tech-stack">
+                <span class="tech-tag">YOLO</span>
+                <span class="tech-tag">Pose Estimation</span>
+                <span class="tech-tag">Computer Vision</span>
+                <span class="tech-tag">ReID</span>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="assets/images/second.webp" alt="Autonomous Robotics Project">
+            <h3>Autonomous Baron Robot</h3>
+            <p>Developed autonomous robot using Raspberry Pi for object retrieval with computer vision and navigation capabilities.</p>
+            <div class="tech-stack">
+                <span class="tech-tag">Raspberry Pi</span>
+                <span class="tech-tag">Computer Vision</span>
+                <span class="tech-tag">Robotics</span>
+            </div>
         </div>
     </div>
 </section>
