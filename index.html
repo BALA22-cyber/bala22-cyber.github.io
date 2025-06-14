@@ -6,387 +6,504 @@
     <title>Balaji Selvakumar | Robotics Engineer</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
 
     <script src="assets/js/script.js" defer></script>
   </head>
   <body>
-    <!-- <header class="fixed-nav">
-        <nav>
-            <ul>
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#publications" class="nav-link">Publications</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
-    </header> -->
-    <div class="side-nav">
-      <a href="#home" class="nav-link">Home</a>
-      <a href="#experience" class="nav-link">Experience</a>
-      <a href="#projects" class="nav-link">Projects</a>
-      <a href="#publications" class="nav-link">Publications</a>
-      <a href="#about" class="nav-link">About</a>
-      <a href="#skills" class="nav-link">Skills</a>
-      <a href="#contact" class="nav-link">Contact</a>
-    </div>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text">BS</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
 
     <main class="main-content">
-      <section id="home" class="parallax">
-        <div class="content-center">
-          <img
-            src="assets/images/profile.jpg"
-            alt="Profile Picture"
-            class="profile-img"
-          />
-          <h1>Balaji Selvakumar</h1>
-          <h2>Robotics / Deep Learning Engineer</h2>
-          <!-- <p class="motto">Mastering Robotics Engineering: Designing Intelligent Solutions for Tomorrow</p> -->
-          <!-- Divider -->
-<div class="divider"></div>
-        <!-- <p class="intro"> -->
-    <!-- A Robotics Engineer with a strong foundation in developing intelligent robotic systems. I have experience tackling a wide range of challenges, including tasks such as sensor fusion and calibration, mapping and relocalization, social navigation, data sampling, and augmentation to improve model accuracy. -->
-<!-- </p> -->
-        <p class="intro"></p>
-I'm a robotics engineer and researcher with hands-on experience in developing autonomous systems, deep learning for perception, and sensor fusion. My work spans real-time robotic applications, including point cloud segmentation, SLAM, and precision measurement for construction automation. I’ve contributed to projects at Oak Ridge National Laboratory, including automated building envelope segmentation and robotic laser tracking, and previously developed social navigation frameworks and large-scale mapping pipelines at the University of Maryland’s GAMMA Lab.
-Technically, I work with Python, C++, ROS/ROS2, OpenCV, and deep learning frameworks like PyTorch and TensorFlow. I’m comfortable working at the intersection of hardware and software—integrating and calibrating sensors, optimizing algorithms, and turning research into reliable, usable solutions.
-My focus: Building intelligent robots that can perceive, decide, and act in complex real-world environments.
-    A Robotics Engineer with a strong foundation in developing intelligent robotic systems. I have experience tackling a wide range of challenges, including tasks such as sensor fusion and calibration, mapping and relocalization, social navigation, data sampling, and augmentation to improve model accuracy.
-</p>
-          <div class="social-icons">
-            <a href="mailto:balase22@terpmail.umd.edu" target="_blank">
+      <section id="home" class="hero-section">
+        <div class="hero-background">
+          <div class="hero-particles"></div>
+        </div>
+        <div class="hero-content">
+          <div class="hero-profile">
+            <div class="profile-image-container">
+              <img
+                src="assets/images/profile.jpg"
+                alt="Profile Picture"
+                class="profile-img"
+              />
+              <div class="profile-ring"></div>
+            </div>
+          </div>
+          <div class="hero-text">
+            <h1 class="hero-title">
+              <span class="title-line">Hi, I'm</span>
+              <span class="title-name">Balaji Selvakumar</span>
+            </h1>
+            <h2 class="hero-subtitle">Robotics & Deep Learning Engineer</h2>
+            <p class="hero-description">
+              I'm a robotics engineer and researcher with hands-on experience in developing autonomous systems, 
+              deep learning for perception, and sensor fusion. My work spans real-time robotic applications, 
+              including point cloud segmentation, SLAM, and precision measurement for construction automation.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="mailto:balase22@terpmail.umd.edu" target="_blank" class="social-link">
               <i class="fas fa-envelope"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/balaji-selvakumar-b788b7186/"
               target="_blank"
+              class="social-link"
             >
               <i class="fab fa-linkedin"></i>
             </a>
-            <a href="https://github.com/BALA22-cyber" target="_blank">
+            <a href="https://github.com/BALA22-cyber" target="_blank" class="social-link">
               <i class="fab fa-github"></i>
             </a>
           </div>
         </div>
+        <div class="scroll-indicator">
+          <div class="scroll-arrow"></div>
+        </div>
       </section>
 
-      <section id="experience" class="section">
-    <h2>Work Experience</h2>
-    <div class="experience-grid">
-        <div class="experience-card">
-            <div class="experience-header">
-                <h3>Oak Ridge National Laboratory</h3>
-                <p class="experience-duration">Jan 2024 – Present</p>
+      <section id="about" class="section about-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Passionate about building intelligent systems that shape the future</p>
+          </div>
+          <div class="about-content">
+            <div class="about-text">
+              <div class="about-stats">
+                <div class="stat-item">
+                  <span class="stat-number">3+</span>
+                  <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">15+</span>
+                  <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">2</span>
+                  <span class="stat-label">Publications</span>
+                </div>
+              </div>
+              <p class="about-paragraph">
+                Hello! I am a dedicated Robotics Engineer with a Master of Science in Robotics from the University of Maryland, College Park. 
+                With a Bachelor's in Mechatronics from Sri Krishna College of Engineering and Technology, I possess a deep understanding of both 
+                mechanical systems and advanced robotics.
+              </p>
+              <p class="about-paragraph">
+                My journey in robotics is marked by a strong blend of theoretical knowledge and practical application, enhanced by advanced 
+                coursework in Robot Programming, Robot Perception, Deep Learning and AI, Autonomous Robotics, and Human-Robot Interaction.
+              </p>
+              <p class="about-paragraph">
+                I have applied my knowledge in real-world settings with significant impact. At Oak Ridge National Laboratory, I'm actively 
+                contributing to the Real-Time Evaluator (RTE) project, enhancing precision in building component placement during crane installation.
+              </p>
+              <a href="assets/files/bala_resume.pdf" class="btn btn-primary" download>
+                <i class="fas fa-download"></i> Download Resume
+              </a>
             </div>
-            <img src="assets/images/oak_ridge.jpeg" alt="ORNL">
-            <p class="experience-role">Deep Learning Researcher & Robotics Research Intern</p>
-            <div class="experience-projects">
-                <div class="project-item">
+            <div class="about-image">
+              <div class="image-container">
+                <img src="assets/images/my_image.jpg" alt="Balaji Selvakumar">
+                <div class="image-overlay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Work Experience</h2>
+            <p class="section-subtitle">Building the future through innovative robotics solutions</p>
+          </div>
+          <div class="experience-timeline">
+            <div class="experience-item">
+              <div class="experience-date">Jan 2024 – Present</div>
+              <div class="experience-content">
+                <div class="experience-header">
+                  <h3>Oak Ridge National Laboratory</h3>
+                  <div class="experience-logo">
+                    <img src="assets/images/oak_ridge.jpeg" alt="ORNL">
+                  </div>
+                </div>
+                <p class="experience-role">Deep Learning Researcher & Robotics Research Intern</p>
+                <div class="experience-projects">
+                  <div class="project-item">
                     <h4><i class="fas fa-cube"></i> DeeP-CuBES Project</h4>
                     <p>Developed deep learning techniques (PointNet++, SuperPoint Transformers) for semantic segmentation to extract window dimensions from point clouds and create digital twin BIM models for building retrofitting automation.</p>
                     <div class="project-links">
-                        <a href="https://www.energy.gov/sites/default/files/2024-11/bto-peer-2024-deep-learning-point-cloud-maldonado.pdf" target="_blank">
-                            <i class="fas fa-file-pdf"></i> Research Paper
-                        </a>
+                      <a href="https://www.energy.gov/sites/default/files/2024-11/bto-peer-2024-deep-learning-point-cloud-maldonado.pdf" target="_blank">
+                        <i class="fas fa-file-pdf"></i> Research Paper
+                      </a>
                     </div>
-                </div>
-                <div class="project-item">
+                  </div>
+                  <div class="project-item">
                     <h4><i class="fas fa-trophy"></i> Real-Time Evaluator (RTE) - R&D 100 Award Winner 2024</h4>
                     <p>Enhanced precision in building component placement during crane installation. Improved automated tracking algorithm operating speed by 30%. Utilized Leica MS60 Robotic Total Station for 1/8-inch accuracy measurements.</p>
                     <div class="project-links">
-                        <a href="https://globalrenewablenews.com/article/energy/category/climate-change/82/1087474/ornl-demonstrates-affordable-energy-efficient-low-carbon-building-technologies-on-national-mall-during-hud-innovation-housing-showcase.html" target="_blank">
-                            <i class="fas fa-newspaper"></i> News Article
-                        </a>
+                      <a href="https://globalrenewablenews.com/article/energy/category/climate-change/82/1087474/ornl-demonstrates-affordable-energy-efficient-low-carbon-building-technologies-on-national-mall-during-hud-innovation-housing-showcase.html" target="_blank">
+                        <i class="fas fa-newspaper"></i> News Article
+                      </a>
                     </div>
+                  </div>
                 </div>
-                <div class="project-item">
-                    <h4><i class="fas fa-database"></i> ORNOBEL Dataset Library</h4>
-                    <p>Created comprehensive labeled point cloud dataset of building scans using Leica Total Station with <6mm accuracy. Developed public dataset library for researchers using Auto-Cubes Algorithm (ML-based DB-Scan customizable tool).</p>
-                </div>
-                <div class="project-item">
-                    <h4><i class="fas fa-robot"></i> FAMI & Robotic Laser Tracking</h4>
-                    <p>Optimized real-time panel orientation tracking by fusing MS60 with IMU inputs. Developed data extraction programs for RoboDyne software using AT960 and T-probe for enhanced robotic precision.</p>
-                    <div class="project-links">
-                        <a href="https://construction-robots.github.io/papers/83.pdf" target="_blank">
-                            <i class="fas fa-file-pdf"></i> Research Paper
-                        </a>
-                    </div>
-                </div>
+              </div>
             </div>
-        </div>
-        <div class="experience-card">
-            <div class="experience-header">
-                <h3>GAMMA Laboratory, University of Maryland</h3>
-                <p class="experience-duration">Jul 2023 – Dec 2023</p>
-            </div>
-            <img src="assets/images/logo.jpg" alt="GAMMA Lab">
-            <p class="experience-role">Graduate Student - Autonomous Global Navigation</p>
-            <div class="experience-projects">
-                <div class="project-item">
+            <div class="experience-item">
+              <div class="experience-date">Jul 2023 – Dec 2023</div>
+              <div class="experience-content">
+                <div class="experience-header">
+                  <h3>GAMMA Laboratory, University of Maryland</h3>
+                  <div class="experience-logo">
+                    <img src="assets/images/logo.jpg" alt="GAMMA Lab">
+                  </div>
+                </div>
+                <p class="experience-role">Graduate Student - Autonomous Global Navigation</p>
+                <div class="experience-projects">
+                  <div class="project-item">
                     <h4><i class="fas fa-users"></i> Social Navigation Framework</h4>
                     <p>Developed baseline social navigation using custom YOLOv8 model for complex urban environments including street crossings with enhanced situational awareness.</p>
-                </div>
-                <div class="project-item">
+                  </div>
+                  <div class="project-item">
                     <h4><i class="fas fa-map"></i> SLAM Implementation</h4>
                     <p>Implemented LIO-SAM on SPOT robot for real-time lidar-inertial odometry, processing raw data for campus-wide autonomous navigation with custom training maps.</p>
+                  </div>
                 </div>
-                <div class="project-item">
-                    <h4><i class="fas fa-cogs"></i> Sensor Integration & Calibration</h4>
-                    <p>Integrated and calibrated Velodyne LIDAR, RealSense Camera, Microstain IMU, and Taoglas GPS on SPOT Robot for optimal pathfinding.</p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <div class="experience-date">Aug 2019 – Jun 2020</div>
+              <div class="experience-content">
+                <div class="experience-header">
+                  <h3>Achara Technologies</h3>
+                  <div class="experience-logo">
+                    <img src="assets/images/logo.jpg" alt="Achara Technologies">
+                  </div>
                 </div>
-            </div>
-        </div>
-        <div class="experience-card">
-            <div class="experience-header">
-                <h3>Achara Technologies</h3>
-                <p class="experience-duration">Aug 2019 – Jun 2020</p>
-            </div>
-            <img src="assets/images/logo.jpg" alt="Achara Technologies">
-            <p class="experience-role">Machine Learning Intern</p>
-            <div class="experience-projects">
-                <div class="project-item">
+                <p class="experience-role">Machine Learning Intern</p>
+                <div class="experience-projects">
+                  <div class="project-item">
                     <h4><i class="fas fa-industry"></i> Fabric Defect Inspection System</h4>
                     <p>Built ML architecture in R&D for inspecting fabric defects and classifying defect types. Created reliable supervised learning algorithm resulting in 30% increase in inspection speed.</p>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-      <section id="projects" class="section section-dark">
-    <h2>Projects</h2>
-    <div class="project-grid">
-        <div class="project-card">
-            <img src="assets/images/first.webp" alt="PointNet2 Semantic Segmentation">
-            <h3>PointNet2 Semantic Segmentation</h3>
-            <p>PyTorch implementation of PointNet++ for 3D point cloud semantic segmentation achieving 83.0% overall accuracy on S3DIS dataset.</p>
-            <div class="tech-stack">
-                <span class="tech-tag">PyTorch</span>
-                <span class="tech-tag">Point Clouds</span>
-                <span class="tech-tag">Deep Learning</span>
-            </div>
-            <div class="project-links">
-                <a href="https://github.com/BALA22-cyber/pointnet2_pytorch_semantic" target="_blank">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-            </div>
-        </div>
-        <div class="project-card">
-            <img src="assets/images/second.webp" alt="Robotic Perception Project">
-            <h3>Robotic Perception</h3>
-            <p>Trained a UNet-based DL model for ground plane detection with 99.1% efficiency.</p>
-            <div class="tech-stack">
-                <span class="tech-tag">Computer Vision</span>
-                <span class="tech-tag">UNet</span>
-                <span class="tech-tag">Robotics</span>
-            </div>
-        </div>
-        <div class="project-card">
-            <img src="assets/images/third.webp" alt="Brain Tumor Classification">
-            <h3>Brain Tumor Classification with ResNet</h3>
-            <p>Comparative analysis of ResNet50 vs ResNet152V2 for brain tumor classification using RICAP preprocessing and custom CNN architectures.</p>
-            <div class="tech-stack">
-                <span class="tech-tag">TensorFlow</span>
-                <span class="tech-tag">ResNet</span>
-                <span class="tech-tag">Medical AI</span>
-            </div>
-            <div class="project-links">
-                <a href="https://github.com/BALA22-cyber/Brain-Tumor-Classifier-ResNet-Comparison" target="_blank">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-            </div>
-        </div>
-        <div class="project-card">
-            <img src="assets/images/fourth.webp" alt="SuperPoint Transformer">
-            <h3>SuperPoint Transformer</h3>
-            <p>State-of-the-art 3D semantic segmentation achieving 76.0 mIoU on S3DIS with lightweight 212k parameter transformer architecture.</p>
-            <div class="tech-stack">
-                <span class="tech-tag">Transformers</span>
-                <span class="tech-tag">3D Segmentation</span>
-                <span class="tech-tag">PyTorch Lightning</span>
-            </div>
-            <div class="project-links">
-                <a href="https://github.com/BALA22-cyber/superpoint_transformer" target="_blank">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-            </div>
-        </div>
-        <div class="project-card">
-            <img src="assets/images/first.webp" alt="Multi-Camera Object Tracking">
-            <h3>Multi-Camera Object Tracking</h3>
-            <p>Advanced multi-camera multi-object tracking system using YOLO backbone with pose estimation for ReID and tracking in dynamic environments.</p>
-            <div class="tech-stack">
-                <span class="tech-tag">YOLO</span>
-                <span class="tech-tag">Pose Estimation</span>
-                <span class="tech-tag">Computer Vision</span>
-                <span class="tech-tag">ReID</span>
-            </div>
-        </div>
-        <div class="project-card">
-            <img src="assets/images/second.webp" alt="Autonomous Robotics Project">
-            <h3>Autonomous Baron Robot</h3>
-            <p>Developed autonomous robot using Raspberry Pi for object retrieval with computer vision and navigation capabilities.</p>
-            <div class="tech-stack">
-                <span class="tech-tag">Raspberry Pi</span>
-                <span class="tech-tag">Computer Vision</span>
-                <span class="tech-tag">Robotics</span>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-      <section id="publications" class="section">
-        <h2>Publications</h2>
-        <div class="publication-list">
-          <div class="publication-item">
-            <i class="fas fa-book"></i>
-            <p>
-              Design and Development of Automatic Coconut Processing Machine
-            </p>
-          </div>
-          <div class="publication-item">
-            <i class="fas fa-book"></i>
-            <p>
-              Design and implementation of carry Look ahead generator in
-              reversible logic using nano QCA
-            </p>
           </div>
         </div>
       </section>
 
-      <section id="about" class="section section-light">
-        <h2 style="text-align: center;">About Me</h2>
-        <div class="about-container">
-
-        
-        <div class="about-text">
-             
-    <p>
-        Hello! I am a dedicated Robotics Engineer with a Master of Science in Robotics from the University of Maryland, College Park. With a Bachelor's in Mechatronics from Sri Krishna College of Engineering and Technology, I possess a deep understanding of both mechanical systems and advanced robotics.
-    </p>
-
-    <p>
-        My journey in robotics is marked by a strong blend of theoretical knowledge and practical application, enhanced by advanced coursework in Robot Programming, Robot Perception, Deep Learning and AI, Autonomous Robotics, and Human-Robot Interaction. I am skilled in programming languages such as C++, Python, and MATLAB, and have extensive experience with robotics platforms including ROS, ROS2, and various simulation tools.
-    </p>
-
-    <p>
-        I have applied my knowledge in real-world settings with significant impact. At Oak Ridge National Laboratory, I'm actively contributing to the Real-Time Evaluator (RTE) project, enhancing precision in building component placement during crane installation. I am also working on developing Deep CuBES project where we have collected and validated building scans using Leica MS60, and created a dataset for public use and for model training.
-    </p>
-
-    <p>
-        I am passionate about leveraging my skills to contribute to cutting-edge projects in robotics and deep learning, and I am eager to bring my strong technical background and innovative approach to new challenges in the field.
-    </p>
+      <section id="projects" class="section projects-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Innovative solutions in robotics and AI</p>
+          </div>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="assets/images/first.webp" alt="PointNet2 Semantic Segmentation">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://github.com/BALA22-cyber/pointnet2_pytorch_semantic" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3>PointNet2 Semantic Segmentation</h3>
+                <p>PyTorch implementation of PointNet++ for 3D point cloud semantic segmentation achieving 83.0% overall accuracy on S3DIS dataset.</p>
+                <div class="tech-stack">
+                  <span class="tech-tag">PyTorch</span>
+                  <span class="tech-tag">Point Clouds</span>
+                  <span class="tech-tag">Deep Learning</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-image">
+                <img src="assets/images/second.webp" alt="Robotic Perception Project">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="#" target="_blank">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3>Robotic Perception</h3>
+                <p>Trained a UNet-based DL model for ground plane detection with 99.1% efficiency.</p>
+                <div class="tech-stack">
+                  <span class="tech-tag">Computer Vision</span>
+                  <span class="tech-tag">UNet</span>
+                  <span class="tech-tag">Robotics</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-image">
+                <img src="assets/images/third.webp" alt="Brain Tumor Classification">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://github.com/BALA22-cyber/Brain-Tumor-Classifier-ResNet-Comparison" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3>Brain Tumor Classification with ResNet</h3>
+                <p>Comparative analysis of ResNet50 vs ResNet152V2 for brain tumor classification using RICAP preprocessing and custom CNN architectures.</p>
+                <div class="tech-stack">
+                  <span class="tech-tag">TensorFlow</span>
+                  <span class="tech-tag">ResNet</span>
+                  <span class="tech-tag">Medical AI</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <div class="project-image">
+                <img src="assets/images/fourth.webp" alt="SuperPoint Transformer">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://github.com/BALA22-cyber/superpoint_transformer" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3>SuperPoint Transformer</h3>
+                <p>State-of-the-art 3D semantic segmentation achieving 76.0 mIoU on S3DIS with lightweight 212k parameter transformer architecture.</p>
+                <div class="tech-stack">
+                  <span class="tech-tag">Transformers</span>
+                  <span class="tech-tag">3D Segmentation</span>
+                  <span class="tech-tag">PyTorch Lightning</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="about-image">
-            <img src="assets/images/my_image.jpg" alt="Your Name">
-        </div>
-   </div>
-</section>
-<section id="skills" class="section section-dark">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-        <div class="skill-column">
-            <h3><i class="fas fa-code"></i>Languages</h3>
-            <ul>
-                <li><i class="fas fa-code"></i> C++</li>
-                <li><i class="fab fa-python"></i> Python</li>
-                <li><i class="fab fa-html5"></i> HTML</li>
-                <li><i class="fab fa-css3-alt"></i> CSS3</li>
-            </ul>
-        </div>
-        <div class="skill-column">
-            <h3><i class="fas fa-tools"></i> Frameworks & Tools</h3>
-            <ul>
-                <li><i class="fas fa-robot"></i> ROS, ROS2</li>
-                <li><i class="fas fa-brain"></i> TensorFlow</li>
-                <li><i class="fab fa-git"></i> Git</li>
-            </ul>
-        </div>
-        <div class="skill-column">
-    <h3><i class="fas fa-cogs"></i> Areas of Expertise</h3>
-    <ul>
-        <li><i class="fas fa-robot"></i> Robotics</li>
-        <li><i class="fas fa-eye"></i> Computer Vision</li>
-        <li><i class="fas fa-brain"></i> Machine Learning</li>
-        <li><i class="fas fa-route"></i> Path Planning</li>
-        <li><i class="fas fa-car"></i> Autonomous Systems</li>
-    </ul>
-</div>
-<div class="skill-column">
-    <h3><i class="fas fa-desktop"></i> Platforms</h3>
-    <ul>
-        <li><i class="fab fa-linux"></i> Linux</li>
-        <li><i class="fab fa-windows"></i> Windows</li>
-        <li><i class="fas fa-microchip"></i> Arduino</li>
-        <li><i class="fab fa-raspberry-pi"></i> Raspberry Pi</li>
-        <li><i class="fab fa-apple"></i> Mac OSX</li>
-    </ul>
-</div>
+      </section>
 
-    </div>
-</section>
-
-
-
-      <section id="contact" class="section-dark">
-    <h2 >Contact</h2>
-    <div class="social-icons">
-        <div class="social-item">
-            <a href="mailto:balase22@terpmail.umd.edu" target="_blank">
-                <i class="fas fa-envelope"></i>
-                <p>Email</p>
-            </a>
+      <section id="skills" class="section skills-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <p class="section-subtitle">Technologies and tools I work with</p>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <div class="skill-header">
+                <i class="fas fa-code"></i>
+                <h3>Programming Languages</h3>
+              </div>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <span class="skill-name">Python</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">C++</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">MATLAB</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <div class="skill-header">
+                <i class="fas fa-robot"></i>
+                <h3>Robotics & AI</h3>
+              </div>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <span class="skill-name">ROS/ROS2</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 95%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">PyTorch</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">TensorFlow</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <div class="skill-header">
+                <i class="fas fa-eye"></i>
+                <h3>Computer Vision</h3>
+              </div>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <span class="skill-name">OpenCV</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Point Clouds</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 88%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">SLAM</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <div class="skill-header">
+                <i class="fas fa-tools"></i>
+                <h3>Tools & Platforms</h3>
+              </div>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <span class="skill-name">Linux</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 92%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Git</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Docker</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" style="width: 80%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="social-item">
-            <a href="https://www.linkedin.com/in/balaji-selvakumar-b788b7186/" target="_blank">
-                <i class="fab fa-linkedin"></i>
-                <p>LinkedIn</p>
-            </a>
-        </div>
-        <div class="social-item">
-            <a href="https://github.com/BALA22-cyber" target="_blank">
-                <i class="fab fa-github"></i>
-                <p>GitHub</p>
-            </a>
-        </div>
-    </div>
-    <!-- Personal Information Section -->
-    <div class="personal-info">
-        <ul>
-            <li><strong>City:</strong> College Park, MD</li>
-            <li><strong>Phone:</strong> +1 (202) 642-2054</li>
-            <li><strong>Email:</strong> balase22@terpmail.umd.edu</li>
-            <li><strong>Education:</strong> University of Maryland, College Park</li>
-            <li><strong>Highest Degree:</strong> Master's</li>
-            <li><strong>Specialization:</strong> Robotics/Deep Learning</li>
-        </ul>
-    </div>
-      <!-- Resume Download Button -->
-    <div class="resume-download">
-        <a href="assets/files/bala_resume.pdf" class="download-btn" download>Download My Resume</a>
-    </div>
-</section>
+      </section>
 
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's discuss opportunities and collaborate on exciting projects</p>
+          </div>
+          <div class="contact-content">
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <p>balase22@terpmail.umd.edu</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Phone</h4>
+                  <p>+1 (202) 642-2054</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Location</h4>
+                  <p>College Park, MD</p>
+                </div>
+              </div>
+            </div>
+            <div class="contact-social">
+              <h4>Connect with me</h4>
+              <div class="social-links">
+                <a href="mailto:balase22@terpmail.umd.edu" target="_blank" class="social-link">
+                  <i class="fas fa-envelope"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/balaji-selvakumar-b788b7186/"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/BALA22-cyber" target="_blank" class="social-link">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-    <footer>
-      <p>&copy; 2024 Balaji Selvakumar | All rights reserved</p>
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Balaji Selvakumar. All rights reserved.</p>
+      </div>
     </footer>
 
-    <button id="scrollTopBtn" title="Go to top">Top</button>
+    <button id="scrollTopBtn" class="scroll-top-btn" title="Go to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
   </body>
 </html>
